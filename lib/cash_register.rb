@@ -18,7 +18,9 @@ attr_accessor :total, :discount
     @total = @total + price
   end
 
-  
+  apply_discount
+    @total = @total * (@discount * .01)
+  end
 
 
 

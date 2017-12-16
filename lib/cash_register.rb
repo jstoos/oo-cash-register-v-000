@@ -14,11 +14,11 @@ attr_accessor :total, :discount, :items
   end
 
   def add_item(item, price, quantity = 0)
+    @items << item
     if quantity > 0
       price = price * quantity
     end
     @total = @total + price
-    @items << item
   end
 
   def apply_discount

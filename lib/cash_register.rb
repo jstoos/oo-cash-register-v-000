@@ -15,7 +15,7 @@ attr_accessor :total, :discount, :items
   end
 
   def add_item(title, price, quantity = 0)
-    if quantity > 1 
+    if quantity > 1
       counter = 1
       while counter < quanity do
       @items << title
@@ -23,7 +23,7 @@ attr_accessor :total, :discount, :items
     else
     @items << title
     end
-  
+
     if quantity > 0
       price = price * quantity
     end

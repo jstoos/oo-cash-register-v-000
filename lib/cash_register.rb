@@ -17,7 +17,7 @@ attr_accessor :total, :discount
 
   
 
-  
+
 
 
 

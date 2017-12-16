@@ -7,7 +7,11 @@ attr_accessor :total, :discount
     @discount = discount
   end
 
+  def total
+    @total
+  end
 
+  
 
 
 

@@ -19,6 +19,7 @@ attr_accessor :total, :discount, :items
       counter = 1
       while counter < quantity do
       @items << title
+      counter += 1
       end
     else
     @items << title

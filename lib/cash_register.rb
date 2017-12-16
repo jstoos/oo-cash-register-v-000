@@ -2,7 +2,7 @@ class CashRegister
 
 attr_accessor :total, :discount, :items
 
-@item = []
+@items = []
 
   def initialize(discount=0)
     @total = 0

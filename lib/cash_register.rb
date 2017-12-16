@@ -11,6 +11,12 @@ attr_accessor :total, :discount
     @total
   end
 
+  def add_item(title, price)
+    @total = @total + price
+  end
+
+  
+
   
 
 

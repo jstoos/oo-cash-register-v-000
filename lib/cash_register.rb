@@ -19,7 +19,7 @@ attr_accessor :total, :discount
   end
 
   apply_discount
-    @total = @total * (@discount * .01)
+    @total = @total * (100 - (@discount * .01))
   end
 
 

@@ -32,6 +32,6 @@ attr_accessor :total, :discount, :items
 
   def items
     @items
-
+  end
 
 end

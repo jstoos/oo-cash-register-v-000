@@ -13,8 +13,8 @@ attr_accessor :total, :discount, :items
     @total
   end
 
-  def add_item(item, price, quantity = 0)
-    @items << item
+  def add_item(title, price, quantity = 0)
+    @items << title
     if quantity > 0
       price = price * quantity
     end
